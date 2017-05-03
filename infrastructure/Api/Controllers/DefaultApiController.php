@@ -10,7 +10,7 @@ class DefaultApiController extends BaseController
     public function index()
     {
         return response()->json([
-            'title'   => 'Larapi',
+            'title'   => 'AOC :: API Orden de Compra',
             'version' => Version::getGitTag()
         ]);
     }
